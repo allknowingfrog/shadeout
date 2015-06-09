@@ -1,11 +1,10 @@
 (function($) {
-    $.fn.menuShades = function(params) {
+    $.fn.shadeout = function(params) {
         var color = params.color || '#0000FF';
         var color2 = params.color2 || '';
         var increment = params.increment || 25;
 
-        var menu = $(this);
-        var children = menu.children();
+        var children = $(this).children();
         var count = children.length;
 
         function shadeColor(color, percent) {   
