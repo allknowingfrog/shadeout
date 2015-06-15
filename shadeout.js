@@ -1,7 +1,7 @@
 (function($) {
     $.fn.shadeout = function(params) {
         var color = params.color || '#0000FF';
-        var color2 = params.color2 || '';
+        var color2 = params.color2 || '#FFFFFF';
         var increment = params.increment || 25;
 
         var children = $(this).children();
@@ -40,7 +40,6 @@
                 shade($(this).index());
             });
         });
-
         shade(0);
     };
 }(jQuery));
