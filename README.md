@@ -10,21 +10,14 @@ increment: 25
 $(ELEMENT).shadeout({}); --Uses all defaults
 
 $(ELEMENT).shadeout({
-
 color: '#ff0000',
-
 increment: 75
-
 }); --Uses only color2 default
 
 $(ELEMENT).shadeout({
-
 color: '#33cc33',
-
 color2: '#ff00ff',
-
 increment: 25
-
 }); --Uses no defaults, but make a beautiful blend of colors
 
 #### The color tags require 7 characters ('#' + 6 more characters 0-9 or A-F)
