@@ -14,7 +14,7 @@ $(ELEMENT).shadeout({}); --Uses all defaults
 $(ELEMENT).shadeout({
     color: '#ff0000',
     increment: 75
-    }); --Uses only color2 default
+}); --Uses only color2 default
 ```
 ```
 $(ELEMENT).shadeout({
