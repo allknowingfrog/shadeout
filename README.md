@@ -23,4 +23,4 @@ $(ELEMENT).shadeout({
     increment: 25
 }); //Uses no defaults, but makes a beautiful blend of colors
 ```
-#### The color tags require 7 characters ('#' + 6 more characters 0-9 or A-F)
+#### The color tags require 7 characters (# + 6 more characters 0-9 or A-F)
