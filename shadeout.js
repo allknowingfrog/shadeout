@@ -21,10 +21,8 @@
         for(var i=1; i<count; i++) {
             var index = i-1;
             var percent = increment/100;
-            console.log(percent+' '+index+' '+colors[index]);
             if(color2) colors[i] = blendColor(colors[index], color2, percent);
             else colors[i] = shadeColor(colors[index], percent);
-            console.log(colors);
         }
 
         function shade(activeIndex) {
